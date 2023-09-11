@@ -105,4 +105,12 @@ class CartController extends Controller
             return response($response, 404);
         }
     }
+
+
+    function dummyFunction(){
+        return [
+            'name'=>'dummy function',
+        ];
+    }
+
 }
